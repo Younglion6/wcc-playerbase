@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'jazzmin'
+    'jazzmin',
     'webapp',
     'crispy_bootstrap4',
     'crispy_forms',
