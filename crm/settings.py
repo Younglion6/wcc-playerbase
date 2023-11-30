@@ -132,6 +132,7 @@ STATIC_URL = 'static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 
 # Default primary key field type
@@ -139,7 +140,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+LOGIN_REDIRECT_URL = '/dashboard'
+LOGIN_URL = 'login'
 
+LOW_QUANTITY = 3
 
 
 
